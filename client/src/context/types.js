@@ -1,0 +1,16 @@
+export const ADD_INVOICE = 'ADD_INVOICE';
+export const NEW_INVOICE_FORM = 'NEW_INVOICE_FORM';
+export const INVOICE_DETAILS = 'INVOICE_DETAILS';
+export const GO_BACK = 'GO_BACK';
+export const EDIT_INVOICE_FORM = 'EDIT_INVOICE_FORM';
+export const DELETE_CONFIRMATION = 'DELETE_CONFIRMATION';
+export const DISCARD = 'DISCARD';
+export const FILTER_INVOICES = 'FILTER_INVOICES';
+export const MARK_PAID = 'MARK_PAID';
+export const CANCEL_DELETE = 'CANCEL_DELETE';
+export const CONFIRM_DELETE = 'CONFIRM_DELETE';
+export const CANCEL_EDIT = 'CANCEL_EDIT';
+export const SAVE_CHANGES = 'SAVE_CHANGES';
+export const DARK = 'DARK';
+export const INVOICE_ERROR = 'INVOICE_ERROR';
+export const GET_INVOICES = 'GET_INVOICES';

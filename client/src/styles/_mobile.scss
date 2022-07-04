@@ -1,0 +1,635 @@
+// Tablets
+@media (max-width: 900px) {
+  #main-app {
+    height: 100vh;
+    #navbar {
+      height: 100px;
+      width: 100vw;
+      border-radius: 0;
+
+      #mode-toggle {
+        top: 40px;
+        left: 80%;
+      }
+
+      #horizontal-line {
+        height: 100px;
+        width: 1px;
+        top: 0;
+        left: 87%;
+      }
+
+      #prof-pic {
+        left: 89%;
+        top: 15px;
+      }
+    }
+
+    #header {
+      width: 700px;
+      margin-top: 160px;
+      align-items: flex-start;
+
+      #header-left {
+        #mobile-title {
+          line-height: 2rem;
+        }
+      }
+    }
+
+    #invoice-modal {
+      #invoice-modal-form {
+        padding: 20px 20px 20px 20px;
+        height: calc(100vh - 225px);
+        margin-top: 100px;
+        border-radius: 0px 20px 0px 0px;
+        margin-bottom: -2.5px;
+      }
+
+      #invoice-modal-submit-btns {
+        padding: 20px 20px 20px 20px;
+        border-radius: 0px 0px 20px 0px;
+
+        #ni-bot-btns {
+          display: flex;
+          justify-content: center;
+
+          #ni-btns {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            .discard {
+              width: 100px;
+            }
+
+            #save-btns {
+              width: 62.5%;
+              .draft {
+                width: 100px;
+                margin: 0;
+              }
+              .send {
+                width: 100px;
+              }
+            }
+          }
+
+          #change-btns {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+          }
+        }
+      }
+    }
+
+    #invoices {
+      width: 700px;
+      padding-bottom: 35px;
+    }
+
+    .new-invoice-modal-container {
+      margin-top: 212px;
+    }
+
+    #details-container {
+      width: 700px;
+      margin-top: 160px;
+
+      #details-card {
+        #details-card-items {
+          #dc-items-header {
+            grid-template-columns: 280px 85px 65px 105px;
+          }
+
+          .item-info {
+            grid-template-columns: 280px 85px 65px 105px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// // Phones
+@media (max-width: 500px) {
+  #main-app {
+    #navbar {
+      position: fixed;
+      height: 70px;
+      width: 100vw;
+      border-radius: 0;
+
+      #home-icon {
+        height: 70px;
+        width: 70px;
+
+        #home-icon-bot {
+          height: 35px;
+          width: 70px;
+          top: 35px;
+        }
+
+        #home-icon-circle {
+          left: 20px;
+          top: 20px;
+          height: 30px;
+          width: 30px;
+        }
+
+        #home-icon-triangle {
+          left: 25px;
+          top: 15px;
+        }
+      }
+
+      #mode-toggle {
+        top: 25px;
+        left: 63%;
+      }
+
+      #horizontal-line {
+        height: 70px;
+        width: 1px;
+        top: 0;
+        left: 75%;
+      }
+
+      #prof-pic {
+        left: 78%;
+        top: 1px;
+      }
+    }
+
+    #header {
+      width: 90%;
+      margin-top: 110px;
+      #header-left {
+        #header-title {
+          display: none;
+        }
+        #mobile-title {
+          display: inline;
+        }
+        #header-numInvoices {
+          display: none;
+        }
+        #mobile-numInvoices {
+          display: inline;
+        }
+        #header-noInvoices {
+          display: none;
+        }
+        #mobile-noInvoices {
+          display: inline;
+        }
+      }
+
+      #header-right {
+        width: 55%;
+        #filter-dropdown {
+          width: 80px;
+          margin-right: 20px;
+          #header-arrow {
+            #filter-title {
+              display: none;
+            }
+            #mobile-filter {
+              display: inline;
+            }
+          }
+        }
+        #new-invoice-container {
+          width: 90px;
+          #new-invoice-btn-words {
+            display: none;
+          }
+          #mobile-new-invoice-btn-words {
+            display: inline;
+          }
+        }
+      }
+    }
+
+    #invoice-modal {
+      width: 100vw;
+      #invoice-modal-form {
+        margin-bottom: 0;
+        margin-top: 70px;
+        padding-left: 20px;
+        padding-top: 20px;
+        width: 90vw;
+        min-width: 300px;
+        height: calc(100vh - 274px);
+
+        #ni-bill-from {
+          #street-address {
+            #ni-sa-input {
+              width: 96%;
+            }
+          }
+          #ni-city-zip-country {
+            display: grid;
+            grid-template-areas:
+              'top-left top-right'
+              'bottom bottom';
+
+            :last-child {
+              grid-area: bottom;
+              #ni-from-country {
+                width: 95%;
+              }
+            }
+          }
+        }
+
+        #ni-bill-to {
+          #bt-cityzipcountry {
+            display: grid;
+            grid-template-areas:
+              'top-left top-right'
+              'bottom bottom';
+
+            :last-child {
+              grid-area: bottom;
+              #ni-to-country {
+                width: 95%;
+              }
+            }
+          }
+
+          #td-date-terms {
+            display: flex;
+            flex-direction: column;
+
+            #td-date {
+              width: 106%;
+            }
+
+            #td-terms {
+              width: 99%;
+            }
+          }
+
+          #ni-proj-desc {
+            width: 96%;
+          }
+        }
+
+        #ni-item-list {
+          #modal-item-list-header {
+            display: none;
+          }
+
+          [id^='modal-item-list-inputs-'] {
+            display: grid;
+            grid-template-areas:
+              'top top top top'
+              'bot-left bot-mid-left bot-mid-right bot-right';
+
+            [id^='item-name-title-'] {
+              display: flex;
+              grid-area: top;
+              align-self: flex-start;
+              margin-top: 10px;
+            }
+            [id^='item-name-input-'] {
+              grid-area: top;
+              width: 96%;
+              margin-top: 30px;
+            }
+            [id^='qty-title-'] {
+              display: flex;
+              grid-area: bot-left;
+              align-self: flex-start;
+            }
+            [id^='qty-input-'] {
+              grid-area: bot-left;
+              margin-top: 20px;
+            }
+            [id^='price-title-'] {
+              display: flex;
+              grid-area: bot-mid-left;
+              align-self: flex-start;
+            }
+            [id^='price-input-'] {
+              grid-area: bot-mid-left;
+              margin-top: 20px;
+            }
+            [id^='total-title-'] {
+              display: flex;
+              grid-area: bot-mid-right;
+              align-self: flex-start;
+            }
+            [id^='total-input-'] {
+              grid-area: bot-mid-right;
+              margin-top: 20px;
+              display: flex;
+              justify-self: flex-start;
+            }
+            [id^='svg-'] {
+              grid-area: bot-right;
+              padding-right: 10px;
+            }
+          }
+        }
+      }
+      #invoice-modal-submit-btns {
+        padding-left: 20px;
+        padding-top: 20px;
+        width: 90vw;
+        min-width: 300px;
+        height: 45px;
+        border-radius: 0;
+
+        #ni-bot-btns {
+          display: flex;
+          justify-content: center;
+          margin-top: -2.5px;
+
+          #ni-btns {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            .discard {
+              width: 100px;
+            }
+
+            #save-btns {
+              width: 65%;
+              .draft {
+                width: 100px;
+                margin: 0;
+              }
+              .send {
+                width: 100px;
+              }
+            }
+          }
+
+          #change-btns {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+          }
+        }
+      }
+    }
+
+    #invoices {
+      width: 90%;
+      padding-bottom: 10px;
+
+      #invoice-list {
+        .invoice-item {
+          height: 120px;
+          grid-template-columns: 64%;
+          grid-template-areas:
+            'top-left top-right'
+            'bot-left bot-right';
+
+          &:hover {
+            height: 118px;
+            border: none;
+          }
+        }
+
+        .item-id {
+          grid-area: top-left;
+        }
+        .item-client-name {
+          padding-right: 20px;
+          justify-self: end;
+          grid-area: top-right;
+        }
+        .item-created-at {
+          padding-left: 20px;
+          height: 40px;
+          justify-self: start;
+          grid-area: bot-left;
+        }
+        .item-payment-due {
+          padding-left: 20px;
+          height: 40px;
+          justify-self: start;
+          align-items: flex-end;
+          grid-area: bot-left;
+        }
+        .colored-part-and-arrow {
+          grid-area: bot-right;
+
+          img {
+            display: none;
+          }
+        }
+      }
+    }
+
+    #details-container {
+      width: 90%;
+      margin-top: 110px;
+
+      #details-header {
+        padding-left: 20px;
+        padding-right: 20px;
+        #dh-status {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          width: 100%;
+        }
+        #dh-options {
+          width: 0px;
+          display: none;
+          #edit {
+            display: none;
+          }
+          #delete {
+            display: none;
+          }
+          #mark-as-paid {
+            display: none;
+          }
+        }
+      }
+
+      #details-card {
+        margin-bottom: 100px;
+        padding: 20px;
+        #top-details {
+          height: 470px;
+          #td-group2 {
+            top: 230px;
+            right: 0;
+          }
+          #td-group3 {
+            top: 310px;
+            right: 0;
+          }
+          #td-group4 {
+            top: 220px;
+            left: 150px;
+          }
+          #td-group5 {
+            top: 390px;
+            left: 0;
+          }
+          #td-group6 {
+            width: 200px;
+            top: 80px;
+            left: 0;
+            #td-sender-address {
+              p {
+                float: left;
+              }
+            }
+          }
+        }
+
+        #details-card-items {
+          padding: 20px 20px 0 20px;
+          #dc-items-header {
+            display: none;
+          }
+          .item-info {
+            grid-template-areas: 'leftside rightside';
+            grid-template-columns: 50%;
+
+            .item-info-name {
+              height: 40px;
+              grid-area: leftside;
+            }
+            .item-info-quantity {
+              height: 20px;
+              grid-area: leftside;
+              margin-left: 0;
+              padding-top: 20px;
+
+              &.dark {
+                color: #888eb0;
+              }
+            }
+            .item-info-price {
+              height: 20px;
+              grid-area: leftside;
+              justify-content: flex-start;
+              margin-left: 0;
+              padding-top: 20px;
+              padding-left: 45px;
+
+              &.dark {
+                color: #888eb0;
+              }
+            }
+            .item-info-total {
+              height: 35px;
+              grid-area: rightside;
+              font-size: 16px;
+              padding-top: 5px;
+            }
+            #random-x {
+              display: block;
+              height: 20px;
+              grid-area: leftside;
+              padding-top: 16px;
+              padding-left: 25px;
+
+              &.dark {
+                color: #888eb0;
+              }
+            }
+          }
+        }
+      }
+
+      #mobile-footer {
+        position: fixed;
+        z-index: 999999;
+        bottom: 0;
+        left: 0;
+        height: 85px;
+        width: 100vw;
+        background: #ffffff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
+
+        &.dark {
+          background: #1e2139;
+        }
+
+        #edit {
+          width: 75px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: #f9fafe;
+          color: #7e88c3;
+
+          &.dark {
+            background: #252945;
+            color: #ffffff;
+
+            &:hover {
+              color: #7e88c3;
+            }
+          }
+
+          &:hover {
+            cursor: pointer;
+            background: #dfe3fa;
+          }
+        }
+
+        #delete {
+          width: 90px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: #ec5757;
+          color: #ffffff;
+
+          &:hover {
+            cursor: pointer;
+            background: #ff9797;
+          }
+        }
+
+        #mark-as-paid {
+          width: 135px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: #7c5dfa;
+          color: #ffffff;
+
+          &:hover {
+            cursor: pointer;
+            background: #9277ff;
+          }
+        }
+      }
+    }
+
+    #delete-modal-container {
+      #delete-modal {
+        height: 230px;
+        width: 80%;
+        padding: 20px;
+        align-items: center;
+
+        #dm-question {
+          margin-left: 20px;
+        }
+      }
+    }
+
+    .new-invoice-modal-container {
+      margin-top: 156px;
+    }
+  }
+}

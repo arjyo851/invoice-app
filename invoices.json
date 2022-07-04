@@ -1,0 +1,230 @@
+[{
+  "_id": {
+    "$oid": "6097135390abfa35d4a9df18"
+  },
+  "items": [
+    {
+      "name": "",
+      "quantity": "",
+      "price": "",
+      "total": "0.00",
+      "itemId": "b731d94a-20fe-4f28-8460-5980647e9274"
+    }
+  ],
+  "id": "FO8477",
+  "createdAt": "2021-05-08",
+  "paymentDue": "2021-06-07",
+  "description": "",
+  "paymentTerms": 30,
+  "clientName": "",
+  "clientEmail": "",
+  "status": "",
+  "senderAddress": {
+    "street": "",
+    "city": "",
+    "postCode": "",
+    "country": ""
+  },
+  "clientAddress": {
+    "street": "",
+    "city": "",
+    "postCode": "",
+    "country": ""
+  },
+  "total": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6097135990abfa35d4a9df19"
+  },
+  "items": [
+    {
+      "name": "",
+      "quantity": "",
+      "price": "",
+      "total": "0.00",
+      "itemId": "e5713e6f-ef1e-4c82-81f2-a90af288b42b"
+    }
+  ],
+  "id": "KS2494",
+  "createdAt": "2021-05-08",
+  "paymentDue": "2021-06-07",
+  "description": "",
+  "paymentTerms": 30,
+  "clientName": "",
+  "clientEmail": "",
+  "status": "",
+  "senderAddress": {
+    "street": "",
+    "city": "",
+    "postCode": "",
+    "country": ""
+  },
+  "clientAddress": {
+    "street": "",
+    "city": "",
+    "postCode": "",
+    "country": ""
+  },
+  "total": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "622445918c984d00155bebb1"
+  },
+  "items": [
+    {
+      "name": "ddd",
+      "quantity": "3",
+      "price": "4",
+      "total": "12.00",
+      "itemId": "50bd10ee-7b0e-4d25-8c12-d1149fcda093"
+    }
+  ],
+  "id": "QH6893",
+  "createdAt": "2022-03-06",
+  "paymentDue": "2022-04-05",
+  "description": "ddddd",
+  "paymentTerms": 30,
+  "clientName": "ssdddd",
+  "clientEmail": "sddd@gmail.com",
+  "status": "pending",
+  "senderAddress": {
+    "street": "ffgggh",
+    "city": "xx",
+    "postCode": "ddd",
+    "country": "ddd"
+  },
+  "clientAddress": {
+    "street": "valis",
+    "city": "ddd",
+    "postCode": "34456",
+    "country": "7788"
+  },
+  "total": 12,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "622447608c984d00155bebb2"
+  },
+  "items": [
+    {
+      "name": "item-1",
+      "quantity": "1",
+      "price": "89.97",
+      "total": "89.97",
+      "itemId": "d62d4657-468c-47df-b74f-78657a269081"
+    }
+  ],
+  "id": "NJ9557",
+  "createdAt": "2022-03-08",
+  "paymentDue": "2022-03-16",
+  "description": "gfggg",
+  "paymentTerms": 7,
+  "clientName": "sddd",
+  "clientEmail": "ssdd@gmail.com",
+  "status": "pending",
+  "senderAddress": {
+    "street": "fgghh",
+    "city": "xddd",
+    "postCode": "356677",
+    "country": "1234556"
+  },
+  "clientAddress": {
+    "street": "zxxxd",
+    "city": "455",
+    "postCode": "4555665",
+    "country": "faridabad"
+  },
+  "total": 89.97,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "622b8ff5181e3600153489ec"
+  },
+  "items": [
+    {
+      "name": "Design",
+      "quantity": "1",
+      "price": "0.05",
+      "total": "0.05",
+      "itemId": "4bc8d151-47a1-4cfa-a1bd-2af91234698c"
+    }
+  ],
+  "id": "IY0345",
+  "createdAt": "2022-03-11",
+  "paymentDue": "2022-04-10",
+  "description": "not sure",
+  "paymentTerms": 30,
+  "clientName": "Chase",
+  "clientEmail": "jensenh@mail.com",
+  "status": "paid",
+  "senderAddress": {
+    "street": "2 FOLSOM STREET",
+    "city": "San Francisco",
+    "postCode": "94105",
+    "country": "United States"
+  },
+  "clientAddress": {
+    "street": "110 Merrit Blvd",
+    "city": "Fishkill",
+    "postCode": "12524",
+    "country": "Cambodia"
+  },
+  "total": 0.05,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "625dc4055a0c430015e7c460"
+  },
+  "items": [],
+  "id": "IU5040",
+  "createdAt": "2022-04-18",
+  "paymentDue": "2022-05-18",
+  "description": "",
+  "paymentTerms": 30,
+  "clientName": "",
+  "clientEmail": "",
+  "status": "draft",
+  "senderAddress": {
+    "street": "",
+    "city": "",
+    "postCode": "",
+    "country": ""
+  },
+  "clientAddress": {
+    "street": "",
+    "city": "",
+    "postCode": "",
+    "country": ""
+  },
+  "total": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626d49083c70d00015c743d1"
+  },
+  "items": [],
+  "id": "BS8996",
+  "createdAt": "2022-04-30",
+  "paymentDue": "2022-05-30",
+  "description": "",
+  "paymentTerms": 30,
+  "clientName": "",
+  "clientEmail": "",
+  "status": "draft",
+  "senderAddress": {
+    "street": "",
+    "city": "",
+    "postCode": "",
+    "country": ""
+  },
+  "clientAddress": {
+    "street": "",
+    "city": "",
+    "postCode": "",
+    "country": ""
+  },
+  "total": 0,
+  "__v": 0
+}]
