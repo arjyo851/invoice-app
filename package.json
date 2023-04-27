@@ -1,7 +1,7 @@
 {
   "name": "invoice-app",
   "version": "1.0.0",
-  "description": "Invoice app from Frontend Mentor",
+  "description": "Invoice app ",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
