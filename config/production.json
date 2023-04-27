@@ -1,3 +1,0 @@
-{
-  "mongoURI": "mongodb+srv://admin-arjyo:${MONGODB_URI}@cluster0.qwodm.mongodb.net/invoice-app?retryWrites=true&w=majority"
-}

@@ -15,8 +15,7 @@
   "engines": {
     "node": "16.x",
     "npm": "8.x"
-  }
-  ,
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arjyo851/invoice-app.git"
@@ -29,6 +28,7 @@
   },
   "dependencies": {
     "config": "^3.3.6",
+    "dotenv": "^16.0.3",
     "express": "^4.17.1",
     "express-validator": "^6.10.0",
     "mongoose": "^5.12.3"
