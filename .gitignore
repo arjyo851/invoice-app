@@ -23,6 +23,8 @@ node_modules/
 
 # mongoURI
 config/default.json
+config/production.json
 
 # Local Netlify folder
 .netlify
+
