@@ -22,7 +22,7 @@ dailyJournal.txt
 node_modules/
 
 # mongoURI
-config/default.json
+# config/default.json
 # config/production.json
 .env
 # Local Netlify folder
