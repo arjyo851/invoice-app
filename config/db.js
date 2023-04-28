@@ -1,9 +1,9 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
-const db = process.env.MONGODB_URI;
+// const db = process.env.MONGODB_URI;
 // console.log(db)
 const config = require('config');
-// const db = config.get('mongoURI');
+const db = config.get('mongoURI');
 // console.log('db: ', db);
 // Connect Database
 const connectDB = async () => {
