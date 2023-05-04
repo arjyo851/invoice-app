@@ -30,7 +30,7 @@ const Navbar = () => {
       <div id='horizontal-line'></div>
       <a
         style={{ display: 'table-cell' }}
-        href='https://www.example.com'
+        href='https://github.com/arjyo851'
         target='_blank'
         rel='noreferrer'
       >
