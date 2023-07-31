@@ -86,8 +86,6 @@ nodemon server.js
 
 Contributions to Invoice App are welcome! If you find any bugs or have suggestions for improvements, please create a pull request or open an issue on GitHub.
 
-## License
 
-Invoice App is open-source software licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this application as per the terms of the license.
 
 
