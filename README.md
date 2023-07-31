@@ -1,6 +1,11 @@
 # Invoice App - Web Application
 
+![Logo](https://socialify.git.ci/arjyo851/invoice-app/image?font=Bitter&language=1&name=1&owner=1&pattern=Circuit%20Board&theme=Auto)
+
 Invoice App is a web application built using React.js and Node.js that allows users to perform CRUD operations (Create, Read, Update, Delete) on invoices. Users can create new invoices, edit existing ones, mark invoices as paid, and delete invoices with confirmation prompts. The app also supports saving invoices as drafts and setting payment terms for pending invoices.
+
+## Working
+![gif](https://github.com/arjyo851/invoice-app/blob/main/Invoice_app.gif)
 
 ## Features
 
@@ -35,7 +40,7 @@ To run the Invoice App locally, follow these steps:
 1. Clone the repository from GitHub:
 
 ```bash
-git clone https://github.com/your-username/invoice-app.git
+git clone https://github.com/arjyo851/invoice-app.git
 ```
 
 2. Navigate to the project directory:
@@ -59,7 +64,7 @@ npm install
 5. Go back to the root directory and start both the server and client concurrently:
 ```
 cd ..
-npm start
+nodemon server.js
 ```
 
 7. The Invoice App should now be accessible in your browser at `http://localhost:3000`.
@@ -71,11 +76,11 @@ npm start
 - Express.js
 - MongoDB (or any database of your choice for storing invoices)
 - Axios (for handling HTTP requests)
-- Bootstrap (optional: for basic styling)
+- Redux
 
-## Note
+## Design Idea
 
-Custom styling for the date and dropdown form fields is optional, as the main focus of this app is on functionality. The provided designs for those fields are for illustration purposes only.
+[Frontend Mentor](https://www.frontendmentor.io/)
 
 ## Contributing
 
